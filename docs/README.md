@@ -75,4 +75,5 @@ trianglePerimeter = triangle.perimeter(a, b, c)
 |a6b69fb6adcc756722500b4181adac8809aa3abd|Реверт коммита с добавлением документации в файлы|
 |16e8f35150bbf96d6acde5ced18d0a25af30737a|Реверт коммита с изменением документации в README.md|
 |82f7f5bdecd804d5ee9e70bd1c065e41d9e89da2|Коммит ранее ревертнутых изменений в другую ветку|
+|4e0f6d03b1e10b1caaf4a344e72178435f500e92| Добавлены тесты |
 
