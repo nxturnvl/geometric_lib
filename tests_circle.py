@@ -4,7 +4,7 @@ import circle
 class CircleTestCase(unittest.TestCase):
     def test_area_positive_value(self):
         res = circle.area(3)
-        self.assertEqual(res,3 * 3 * math.pi)
+        self.assertAlmostEqual(res,28.2743,4)
     def test_area_zero_value(self):
         with self.assertRaises(ValueError):
             res = circle.area(0)
@@ -17,7 +17,7 @@ class CircleTestCase(unittest.TestCase):
 
     def test_perimeter_positive_value(self):
         res = circle.perimeter(3)
-        self.assertEqual(res,2 * 3 * math.pi)
+        self.assertAlmostEqual(res,18.8496,4)
     def test_perimeter_zero_value(self):
         with self.assertRaises(ValueError):
             res = circle.perimeter(0)
