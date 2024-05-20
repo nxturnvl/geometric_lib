@@ -62,6 +62,9 @@ triangleArea = triangle.area(a, h)
 ```
 trianglePerimeter = triangle.perimeter(a, b, c)
 ```
+# Тесты
+Всего тестов : 32
+Не пройдено : 18
 # История изменения проекта
 | Хэш коммита  | Изменения |
 | ------------- |-------------|
